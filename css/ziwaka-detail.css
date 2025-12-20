@@ -1,0 +1,15 @@
+.figure-1{
+    height: 410px;
+}
+
+.system-3, .system-2{
+    height: 500px;
+}
+
+figcaption{
+    text-align: center;
+}
+
+#about{
+    margin-top: 35px;
+}

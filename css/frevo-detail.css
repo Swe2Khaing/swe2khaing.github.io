@@ -1,0 +1,31 @@
+.img-sample{
+ max-width: 100%;
+  height: auto;
+}
+
+.card{
+    border-width: 1px;
+    border-radius: 41px;
+    border-color: black;
+    width: 90%;
+    height: 170px;
+}
+
+.card-title{
+    font-weight: 350;
+}
+
+figure .img-fluid{
+    border: 1px solid #000;
+    border-radius: 100px;
+    width: 80px;
+}
+
+figure{
+    text-align: center;
+    margin: 18px;
+}
+
+#about{
+    margin-top: 35px;
+}

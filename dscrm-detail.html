@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>DSCRM - Portfolio</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link rel="stylesheet" type="text/css" href="css/vendor.css">
+  <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/dscrm-detail.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-body homepage post-template" data-bs-spy="scroll" data-bs-target="#header-nav" tabindex="0">
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <defs>
+       <symbol xmlns="http://www.w3.org/2000/svg" id="github" viewBox="0 0 496 512">
+        <path fill="currentColor"
+          d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>
+      </symbol>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="kaggle" viewBox="0 0 640 640">
+        <path fill="currentColor"
+          d="M464.2 565.5L318.4 384.3L458.2 249C460.8 246.3 459.9 238.5 452.9 238.5L383.7 238.5C380.2 238.5 376.7 240.3 373.2 243.8L240.9 377.5L240.9 71.5C240.9 66.5 238.4 64 233.4 64L181.5 64C176.5 64 174 66.5 174 71.5L174 568.5C174 573.5 176.5 576 181.5 576L233.4 576C238.4 576 240.9 573.5 240.9 568.5L240.9 459.5L271.7 430.2L382.2 570.8C385.2 574.3 388.7 576.1 392.7 576.1L459.6 576.1C463.1 576.1 465.1 575.1 465.6 573.1L464.2 565.5z"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <a class="menu-btn"><span></span></a>
+
+  <div class="container-fluid overflow-hidden">
+
+   <header id="header-nav" class="col-lg-2 position-fixed px-5 bg-white h-100">
+      <div class="header-wrap d-flex flex-column justify-content-between h-100">
+        <div class="navigation">
+          <div class="site-logo mt-4 mb-5">
+            <a href="index.html">
+              <img src="images/SSKlogo.png" alt="logo" class="img-fluid">
+            </a>
+          </div>
+          <nav id="one-page-menu" class="vertical-menu ">
+            <ul class="menu-list list-unstyled">
+              <li><a href="index.html" class="nav-link">Home</a></li>
+              <li><a href="#education" class="nav-link">Education</a></li>
+              <li><a href="#experience" class="nav-link">Experience</a></li>
+              <li><a href="#references" class="nav-link">References</a></li>
+              <li><a href="#information" class="nav-link">Personal Info</a></li>
+              <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+              <li><a href="#cv" class="nav-link">Download CV</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <ul class="list-unstyled d-flex justify-content-start flex-wrap gap-3 mb-4">
+            <li>
+              <a href="https://github.com/Swe2Khaing" class="text-dark" target="_blank">
+                <svg width="24" height="24" viewBox="0 0 496 512">
+                  <use xlink:href="#github"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.kaggle.com/sweswekhaing199" class="text-dark" target="_blank">
+                <svg width="24" height="24" viewBox="0 0 640 640">
+                  <use xlink:href="#kaggle"></use>
+                </svg>
+              </a>
+            </li>
+            
+          </ul>
+          <div class="py-4 border-top" style="display:none;">
+            <p>HTML by <a href="https://templatesjungle.com/" target="_blank">TemplatesJungle</a></p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="col-lg-10 offset-lg-2">
+      <div class="container">
+
+        <!-- content wrapper -->
+        <div class="justify-content-center px-1 mx-1 px-xl-5 mx-xl-5">
+
+          <section id="about" class="mb-5 pb-5" data-aos="fade-up">
+            <span class="text-muted text-uppercase">PORTFOLIO</span>
+             <h2 class="display-4 txt-fx slide-up" style="margin-bottom: -20px;">DSCRM</h2>
+            <span>Customer Relationship Management for Distribution Service (Vtiger-based)</span><div class="row">
+              <div class="col-lg-12 pb-4 mt-5">
+                <div data-aos="fade-up" data-aos-delay="200" class="aos-init">
+                  <ul class="list-unstyled d-flex gap-2 gap-md-5 flex-column flex-md-row">
+                    <li>
+                      <h5>Duration</h5>
+                      <p>2023 ~ 2025</p>
+                    </li>
+                    <li>
+                      <h5>Organization</h5>
+                      <p>HIROKEI Myanmar Systems Co., Ltd:</p>
+                    </li>
+                  
+                    
+                  </ul>
+                </div>
+                
+              </div>
+               <div class="col-lg-12 pb-4">
+                <div data-aos="fade-up" data-aos-delay="200" class="aos-init">
+                  <ul class="list-unstyled d-flex gap-2 gap-md-5 flex-column flex-md-row">
+                   
+                    <li>
+                      <h5>System Overview</h5>
+                      <p style="text-align: justify;">
+                        Vtiger CRM is a cloud-based and open source CRM software developed by Vtiger that helps teams track leads, contacts, deals, and customer interactions.
+It offers tools for sales, marketing, and customer support in one platform.                    
+  <br><br>
+A Distribution Service CRM (DSCRM) is a centralized system that manages the entire distribution process, including inventory, sales, purchasing, delivery, and customer support. It enables real-time inventory tracking, efficient order and invoice management, performance monitoring, and the generation of accurate daily, weekly, and monthly reports to improve operational efficiency and customer satisfaction, and is fully configurable to meet customer-specific needs.</p>
+                    </li>
+                  </ul>
+                </div>
+                
+              </div>
+              <div class="col-lg-12 pb-5">
+                <div data-aos="fade-up" data-aos-delay="200" class="aos-init">
+                  <ul class="list-unstyled d-flex gap-2 gap-md-5 flex-column flex-md-row">
+                   
+                     <li>
+                      <h5>Role</h5>
+                      <br>
+                      <h6 style="font-size: 0.9rem;">System Testing</h6>
+                      <ul>
+                        <li>Manual testing of customized DSCRM features.</li>
+                        <li>Functional and regression testing.</li>
+                        <li>Defect identification, reporting and verification.</li>
+                      </ul>
+                      <br>
+                     <h6 style="font-size: 0.9rem;">System Supporting</h6>
+                      <ul>
+                        <li>End-user training.</li>
+                        <li>User Acceptance Testing (UAT) support.</li>
+                        <li>Followed up with clients to validate DSCRM functionality against customer requirements.</li>
+                        <li>Day-to-day system support and user issue resolution.</li>
+                        <li>Documenting issues, managing defect tickets, and coordinated with developers for bug fixes and system improvements.</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                
+              </div>
+              <div class="row"  data-aos="fade-up" data-aos-delay="200" class="aos-init">
+              <span class="text-muted text-uppercase">Features</span>
+              <h5 class="text-muted mb-3">Vtiger-based</h5>
+              
+                <div class="col-lg-3 guest-row">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title text-center text-muted">Dashboard</h5>
+                      <figure>
+                        <img src="images/dashboard.png" alt="portfolio" class="img-fluid">
+                      </figure>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-3 guest-row">
+                 <div class="card" >
+                    <div class="card-body">
+                      <h5 class="card-title text-center text-muted">Marketing</h5>
+                      <figure>
+                        <img src="images/Marketing.JPG" alt="portfolio" class="img-fluid">
+                      </figure>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-3 guest-row">
+                  <div class="card" >
+                    <div class="card-body">
+                      <h5 class="card-title text-center text-muted">Sales</h5>
+                      <figure>
+                        <img src="images/Sales.JPG" alt="portfolio" class="img-fluid">
+                      </figure>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-3 guest-row">
+                  <div class="card" >
+                    <div class="card-body">
+                      <h5 class="card-title text-center text-muted">Support</h5>
+                      <figure>
+                        <img src="images/Support.JPG" alt="portfolio" class="img-fluid">
+                      </figure>
+                    </div>
+                </div>
+              </div>
+            <div class="row mt-3">
+              <div class="col-lg-3 guest-row">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title text-center text-muted">Tools</h5>
+                      <figure>
+                        <img src="images/Tools.JPG" alt="portfolio" class="img-fluid">
+                      </figure>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-3 guest-row">
+                  <div class="card" >
+                    <div class="card-body">
+                      <h5 class="card-title text-center text-muted">Settings</h5>
+                      <figure>
+                        <img src="images/Settings.JPG" alt="portfolio" class="img-fluid">
+                      </figure>
+                    </div>
+                </div>
+              </div>
+              
+            </div>
+            </div>
+            <div class="row"  data-aos="fade-up" data-aos-delay="200" class="aos-init">
+            <h5 class="text-muted mt-5">DSCRM Add-Ons</h5>
+            <div class="row mt-3">
+              
+              <div class="col-lg-3 guest-row">
+                 <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title text-center text-muted">Project</h5>
+                      <figure>
+                        <img src="images/Project.JPG" alt="portfolio" class="img-fluid">
+                      </figure>
+                    </div>
+                </div>
+              </div>
+               <div class="col-lg-3 guest-row">
+               <div class="card" >
+                    <div class="card-body">
+                      <h5 class="card-title text-center text-muted">Inventory</h5>
+                      <figure>
+                        <img src="images/Inventory.JPG" alt="portfolio" class="img-fluid">
+                      </figure>
+                    </div>
+                </div>
+                </div>
+                
+              <div class="col-lg-3 guest-row">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title text-center text-muted">Accounting</h5>
+                      <figure>
+                        <img src="images/Accounting1.png" alt="portfolio" class="img-fluid">
+                      </figure>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-3 guest-row">
+                 <div class="card" >
+                    <div class="card-body">
+                      <h5 class="card-title text-center text-muted">ITS 4 You</h5>
+                      <figure>
+                        <img src="images/ITS 4 You.JPG" alt="portfolio" class="img-fluid">
+                      </figure>
+                    </div>
+                </div>
+              </div>
+              </div>
+              </div>
+               <div data-aos="fade-up" data-aos-delay="200" class="aos-init mt-5">
+            <span class="text-muted text-uppercase ">Sample Screens</span><br>
+                <span class="text-uppercase ">Inventory - Products</span>
+                <div class="row">
+                    <div class="col-lg-12 guest-row">
+                      <div class="portfolio-image">
+                        <figure>
+                            <img src="images/ds1.png" alt="portfolio" class="img-sample">
+                        </figure>
+                          <figcaption></figcaption>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div data-aos="fade-up" data-aos-delay="200" class="aos-init mt-4">
+                <span class="text-uppercase ">Inventory - Stock Info</span>
+                <div class="row">
+                    <div class="col-lg-12 guest-row">
+                      <div class="portfolio-image">
+                        <figure>
+                            <img src="images/ds2.png" alt="portfolio" class="img-sample">
+                        </figure>
+                          <figcaption></figcaption>
+                        </div>
+                    </div>
+                </div>
+              </div>
+               <div data-aos="fade-up" data-aos-delay="200" class="aos-init mt-4">
+                <span class="text-uppercase ">Inventory - Stock Transfer</span>
+                <div class="row">
+                    <div class="col-lg-12 guest-row">
+                      <div class="portfolio-image">
+                        <figure>
+                            <img src="images/ds3.png" alt="portfolio" class="img-sample">
+                        </figure>
+                          <figcaption></figcaption>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </section>
+
+        
+
+       
+
+         
+        </div>
+        <!-- / content wrapper -->
+
+      </div>
+    </main>
+
+  </div>
+
+  <script src="js/jquery-1.11.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/glightbox.min.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
