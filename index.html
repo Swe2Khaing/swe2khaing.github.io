@@ -26,6 +26,10 @@
 <body class="bg-body homepage post-template" data-bs-spy="scroll" data-bs-target="#header-nav" tabindex="0">
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
     <defs>
+      <symbol xmlns="http://www.w3.org/2000/svg" id="linkedin" viewBox="0 0 448 512">
+        <path fill="currentColor"
+         d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/>
+      </symbol>
       <symbol xmlns="http://www.w3.org/2000/svg" id="github" viewBox="0 0 496 512">
         <path fill="currentColor"
           d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>
@@ -114,8 +118,8 @@
               <li><a href="#home" class="nav-link">Home</a></li>
               <li><a href="#education" class="nav-link">Education</a></li>
               <li><a href="#experience" class="nav-link">Experience</a></li>
-              <li><a href="#references" class="nav-link">References</a></li>
               <li><a href="#information" class="nav-link">Personal Info</a></li>
+              <li><a href="#skills" class="nav-link">Skills</a></li>
               <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
               <li><a href="#cv" class="nav-link">Download CV</a></li>
             </ul>
@@ -131,12 +135,20 @@
               </a>
             </li>
             <li>
+              <a href="https://www.linkedin.com/in/sweswekhaing" class="text-dark" target="_blank">
+                <svg width="24" height="24" viewBox="0 0 640 640">
+                  <use xlink:href="#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+            <li style="margin-left: -4px;">
               <a href="https://www.kaggle.com/sweswekhaing199" class="text-dark" target="_blank">
                 <svg width="24" height="24" viewBox="0 0 640 640">
                   <use xlink:href="#kaggle"></use>
                 </svg>
               </a>
             </li>
+            
             
           </ul>
           <div class="py-4 border-top" style="display:none;">
@@ -159,9 +171,9 @@
                   <img src="images/SSK1.png" alt="banner" class="img-fluid img-banner" class="img-fluid">
                 </div>
               </div>
-              <div class="col-lg-6" style="margin-top: 6rem;">
+              <div class="col-lg-6" style="margin-top: 4rem;">
                 <div class="banner-content my-1 pt-1 my-lg-5 pt-lg-5" data-aos="fade-in">
-                  <span class="text-muted text-uppercase">Data Science / Data Analyst / Software Tester</span>
+                  <span class="text-muted text-uppercase">Software Tester / Data Science / Data Analyst</span>
                   <h1 class="banner-title display-xl lh-1 txt-fx slide-up">Swe Swe Khaing</h1>
                 </div>
               </div>
@@ -185,12 +197,12 @@
                 <div class="data-info py-3" data-aos="fade-up">
                    <span class="meta-date">2025 - Present</span>
                   <h3 class="info-title">AI & Data Science Program</h3>
-                  <p>North-Chiang Mai University, Thailand</p>
+                  <p>North-Chiang Mai University, Chiang Mai, Thailand</p>
                 </div>
                 <div class="data-info" data-aos="fade-up" data-aos-delay="100">
                     <span class="meta-date">2016 - 2023</span>
                   <h3 class="info-title">Bachelors in Computer Science</h3>
-                  <p>Computer University Sittwe, Myanmar</p>
+                  <p>University of Computer Studies (Sittway), Rakhine, Myanmar</p>
                 </div>
               </div>
             </div>
@@ -201,11 +213,11 @@
               <div class="col-lg-12 pb-5">
                 <h2 class="display-4 txt-fx slide-up mt-4">Experiences</h2>
                 <div class="data-info py-3" data-aos="fade-up" data-aos-delay="200">
-                  <span class="meta-date">2023 - 2025</span>
+                  <span class="meta-date">Sep 2023 ~ Feb 2025</span>
                   <h3 class="info-title">System Support Engineer</h3>
-                  <p>HIROKEI Myanmar Systems Co., Ltd: </p>
+                  <p>HIROKEI Myanmar Systems Co., Ltd., Yangon, Myanmar </p>
                   <ul class="experience-detail">
-                    <li>Provided technical support for ERP and CRM software.</li> 
+                    <li>Provided technical support for ERP and CRM softwares.</li> 
                     <li>Trained clients on systems usage and ensured smooth onboarding.</li>
                     <li>Handled customer support tickets, resolved technical issues, and created documentation and user guides.</li>
                     <li>Tested and evaluated new software features to ensure readiness.</li>
@@ -213,22 +225,22 @@
                   </ul>
                 </div>
                  <div class="data-info py-3" data-aos="fade-up" data-aos-delay="200">
-                  <span class="meta-date">2022- 2023</span>
+                  <span class="meta-date">Oct 2022 ~ Feb 2023</span>
                   <h3 class="info-title">Graduation Project: Specialist Clinic System Using Apriori Algorithm</h3>
-                  <p>Computer University</p>
+                  <p>University of Computer Studies (Sittway), Rakhine, Myanmar</p>
                   <ul class="experience-detail">
-                    <li>Developed a web-based system to analyze patient visit patterns using the Apriori algorithm.</li>
+                    <li>Developed a web-based system to analyze patient visit patterns using the Apriori Algorithm.</li>
                     <li>Conducted extensive research and reviewed multiple academic papers to implement best practices in data mining.</li>
                     <li>Designed, implemented and tested the system’s UI/UX, creating a clean and user-friendly interface for users.</li>
                   </ul>
                 </div>
                  <div class="data-info py-3" data-aos="fade-up" data-aos-delay="200">
-                  <span class="meta-date">2020 - 2021</span>
+                  <span class="meta-date">Mar 2020 ~ Sep 2020</span>
                   <h3 class="info-title">System Analyst Intern</h3>
-                  <p>RAY HUB Academy (Software House)</p>
+                  <p>RAY HUB Academy (Software House), Rakhine, Myanmar </p>
                   <ul class="experience-detail">
                     <li>Tested and evaluated new software features to ensure readiness.</li>
-                    <li>Assisted in analyzing system requirements and preparing documentation for development teams.</li>
+                    <li>Collaborated with team members on system requirements analysis and created detailed documentation to support development teams.</li>
                     <li>Collaborated with instructors and developers to design and test software modules.</li>
                     <li>Conducted user requirement analysis and helped improve workflow efficiency.</li>
                   </ul>
@@ -239,17 +251,10 @@
             <section id="references" class="my-5 bg-text">
             <div class="row d-flex flex-wrap" data-aos="fade-up">
               
-              <div class="col-lg-6 pb-5">
-                <h2 class="display-4 txt-fx slide-up">References</h2>
-                <div class="data-info py-3" data-aos="fade-up" data-aos-delay="200">
-                  <h3 class="info-title">Thura Linn</h3>
-                  <p>Admin & HR Executive(HIROKEI Myanmar Systems Co., Ltd)</p>
-                  <span class="meta-date">Phone : +95955104479</span><br>
-                  <span class="meta-date">Email : thuralinn@hirokei-myanmar.com</span>
-                </div>
-               
+              <div class="col-lg-12 pb-5">
+                <h2 class="display-4 txt-fx slide-up" style="margin-bottom: -15px;">References upon request</h2>
+                
               </div>
-              <div class="col-lg-6 pb-5"></div>
             </div>
           </section>
 
@@ -260,7 +265,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-lg-5">
+              <div class="col-lg-12">
                 
                 <div class="info-element py-4" data-aos="fade-up">
                   <h3 class="bio-title">Bio</h3>
@@ -280,40 +285,143 @@
                       </tr>
                       <tr>
                         <th>E-mail</th>
-                        <td><a href="#">sweswekhaing199@gmail.com</a></td>
+                        <td>sweswekhaing199@gmail.com</td>
                       </tr>
                       <tr>
                         <th>Phone</th>
-                        <td>+66 0836019311</td>
+                        <td>+66 836019311</td>
                       </tr>
                       <tr class="no-border-bottom">
                         <th>Languages</th>
-                        <td>English, Burmese</td>
+                        <td>English, Burmese, Rakhine</td>
                       </tr>
                     </tbody>
                   </table>
                 </div>
               </div>
-              <div class="col-lg-7">
+            </div>
+          </section>
+
+              <section id="skills" class="my-5 bg-text">
+            <div class="row justify-content-center mb-2">
+              <div class="col-lg-12" data-aos="fade-up">
+                <h2 class="display-4 txt-fx slide-up">Skill Details</h2>
+              </div>
+            </div>
+            <div class="row">
+             
+              <div class="col-lg-12">
                      <div class="info-element py-4" data-aos="fade-up">
-                  <h3 class="bio-title">Skills</h3>
+                  <h3 class="bio-title">Software Testing Skills</h3>
                   <table class="table">
                     <tbody>
                       <tr>
-                        <th>Programming</th>
-                        <td>Python, Java, HTML, CSS, JavaScript, MySQL</td>
+                        <th style="width: 30%;">Testing Fundamentals</th>
+                        <td>Software Development Life Cycle (SDLC), Bug lifecycle & severity vs priority, Reported and prioritized defects</td>
                       </tr>
                       <tr>
-                        <th>System</th>
-                        <td>ERP, CRM</td>
+                        <th>Manual Testing Skills</th>
+                        <td>Functional Testing, Smoke & Sanity Testing, Regression Testing, Integration Testing, System Testing, User Acceptance Testing (UAT), Exploratory Testing</td>
                       </tr>
                       <tr>
-                        <th>Testing</th>
-                        <td>Manual Testing</td>
+                        <th>Bug Reporting & Documentation</th>
+                        <td>Writing clear reproducible bug reports, Root cause analysis (basic), Test summary reports</td>
+                      </tr>
+                      <tr>
+                        <th>API Testing</th>
+                        <td>REST API concepts, HTTP methods & status codes, Request/response validation</td>
+                      </tr>
+                      <tr>
+                        <th>Database & SQL Testing</th>
+                        <td>SQL queries, Data validation, CRUD operation testing</td>
+                      </tr>
+                       <tr class="no-border-bottom">
+                        <th>Tools</th>
+                        <td>Postman, Microsoft Office, AI Tools, CRM (Ticket Handling)</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+                <div class="col-lg-12">
+                     <div class="info-element py-4" data-aos="fade-up">
+                  <h3 class="bio-title">Data Science & Analysis Skills</h3>
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <th style="width: 30%;">Programming Languages</th>
+                        <td>Python (NumPy, Pandas), SQL, Basic: Java, HTML, CSS, JavaScript</td>
+                      </tr>
+                      <tr>
+                        <th>Data Cleaning & Preprocessing</th>
+                        <td>Handling missing values & outliers, Data normalization & scaling, Data validation & consistency checks, Working with messy real-world datasets</td>
+                      </tr>
+                      <tr>
+                        <th>Exploratory Data Analysis (EDA)</th>
+                        <td>Analyzed data structure and distributions, Computed descriptive statistics, Detected missing values and outliers, Visualized trends and relationships</td>
+                      </tr>
+                      <tr>
+                        <th>Statistics & Math Foundations</th>
+                        <td>Basic descriptive statistics, Probability concepts, Correlation analysis, Basic linear relationships and regression concepts</td>
+                      </tr>
+                      <tr>
+                        <th>Machine Learning</th>
+                        <td>Supervised Learning & Unsupervised Learning basics</td>
+                      </tr>
+                       <tr>
+                        <th>Real-World Data Sources</th>
+                        <td>APIs (REST APIs, JSON), Web scraping, Working with CSV, Excel, JSON, Database design</td>
                       </tr>
                       <tr class="no-border-bottom">
-                        <th>Professional Skills</th>
-                        <td>System Support, Client Communication, Team Collaboration, Research</td>
+                        <th>Tools</th>
+                        <td>Google Colab, Git & GitHub, VS Code</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+               <div class="col-lg-12">
+                    <div class="info-element py-4" data-aos="fade-up">
+                  <h3 class="bio-title">Soft Skills</h3>
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <th style="width: 30%;">Problem Solving</th>
+                        <td>Analyzed system issues, identified root causes, and supported effective technical solutions.</td>
+                      </tr>
+                      <tr>
+                        <th>Analytical Thinking</th>
+                        <td>Interpreted data, system requirements, and testing results to support decision making.</td>
+                      </tr>
+                      <tr>
+                        <th>Communication Skills</th>
+                        <td>Explained technical concepts clearly to clients, users, and non-technical stakeholders.</td>
+                      </tr>
+                      <tr>
+                        <th>Client & User Support</th>
+                        <td>Trained users, handled support tickets, and ensured smooth system onboarding.</td>
+                      </tr>
+                       <tr>
+                        <th>Attention to Detail</th>
+                        <td>Validated data, tested system functionality, and documented findings accurately.</td>
+                      </tr>
+                       <tr>
+                        <th>Team Collaboration</th>
+                        <td>Worked closely with developers, analysts, and instructors to improve system performance.</td>
+                      </tr>
+                       <tr>
+                        <th>Time Management</th>
+                        <td>Managed multiple support tasks, testing activities, and coursework efficiently.</td>
+                      </tr>
+                       <tr>
+                        <th>Adaptability & Learning</th>
+                        <td>Quickly learned new systems, tools, and technologies.</td>
+                      </tr>
+                      <tr class="no-border-bottom">
+                        <th>Documentation Skills</th>
+                        <td>Created clear user guides, test cases, and technical documentation.</td>
                       </tr>
                     </tbody>
                   </table>
@@ -328,7 +436,7 @@
                   <div class="col-lg-12 aos-init aos-animate" data-aos="fade-up">
                     <div class="section-header text-center">
                       <h1 class="display-1 txt-fx slide-up">My Portfolio</h1>
-                     
+                      <p>My previous project experiences include Odoo ERP System(POS, E-Commerce), CRM System, Web-Based Specialist Clinic System using Data Mining Concept</p>
                     </div><!--section-header-->
                   </div>
                 </div>
@@ -337,7 +445,7 @@
             </section>
 
             <!-- Portfolio Section -->
-    <section id="portfolio" class="my-5 portfolio section">
+    <section id="portfolio" class="mb-5 portfolio section">
 
     <!-- End Section Title -->
                   <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
@@ -480,12 +588,11 @@
                 <div class="col-lg-12 mt-5 py-5 text-center ">
                   <h2 class="display-4 txt-fx slide-up">Let’s Get in Touch!</h2>
                   <div class="data-info py-3" data-aos="fade-up" data-aos-delay="200">
-                    <p>I am actively seeking opportunities in Data Science and Software Testing and am ready to contribute my skills to impactful projects. Let’s connect and explore how I can add value to your team.</p>   
-                  </div>
-                  <div class="data-info mt-5 py-3" data-aos="fade-up" data-aos-delay="200">
-                    <span>
+                    <p class="pb-4">I am actively seeking opportunities in Data Science and Software Testing and am ready to contribute my skills to impactful projects. Let’s connect and explore how I can add value to your team.</p>   
+                 
+                    <p class="data-info mt-5 py-3">
                       <a href="Swe Swe Khaing - CV.pdf" class="btn btn-dark px-5 py-4" target="_blank"  >Download CV</a>
-                    </span>
+                    </p>
                   </div>
                 </div>
                 <div class="col-lg-12 pb-5 text-center "></div>
@@ -573,6 +680,5 @@
   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
   <script src="js/script.js"></script>
 </body>
-
 
 </html>
