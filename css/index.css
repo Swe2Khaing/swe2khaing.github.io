@@ -85,7 +85,7 @@ padding-bottom: 10px;
 .portfolio-item{
     height: 150px;
   align-content: center;
-  width: 33.33% !important;
+  width: 50% !important;
 }
 
 .odoo {
@@ -172,8 +172,8 @@ padding-bottom: 10px;
 }
 
 .portfolio .portfolio-entry .entry-image img {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: fit-content;
   object-fit: cover;
   transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -282,7 +282,7 @@ padding-bottom: 10px;
 }
 
 .portfolio .portfolio-item .entry-image {
-  aspect-ratio: 4/3;
+  aspect-ratio: 8/4;
 }
 
 @media (min-width: 1200px) {
@@ -388,4 +388,61 @@ padding-bottom: 10px;
 
 .looking-for{
   font-size: 1.75rem;
+}
+
+.position{
+  margin-left: 10px;
+  font-size: 19px;
+}
+
+    .skill-card {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .skill-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 30px rgba(0, 0, 0, 0.08);
+    }
+
+    .skill-card h3 {
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-size: 1.1rem;
+    }
+
+    .skill-card ul {
+      padding-left: 18px;
+      margin: 0;
+    }
+
+    .skill-card li {
+      margin-bottom: 8px;
+      font-size: 0.95rem;
+    }
+
+
+.grid {
+  display: block;
+}
+
+.grid-item {
+  width: 50%;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.isotope-container{
+  height: 960px !important;
+}
+
+.item-2{
+  top:490px !important;
+}
+
+.btn-dark{
+  border-radius: 5px !important;
 }
